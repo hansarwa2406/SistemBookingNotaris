@@ -62,7 +62,7 @@
             <!--==================== HOME ====================-->
             <section class="home" id="home">
                 <div class="home__container container grid">
-                    <img src="assets/img/home.png" alt="" class="home__img">
+                    <img src="assets/img/notary.png" alt="" class="home__img">
 
                     <div class="home__data">
                         <h1 class="home__title">
@@ -97,7 +97,7 @@
             <!--==================== ABOUT ====================-->
             <section class="about section container" id="about">
                 <div class="about__container grid">
-                    <img src="assets/img/about.png" alt="" class="about__img">
+                    <img src="assets/img/notary_2.png" alt="" class="about__img">
 
                     <div class="about__data">
                         <h2 class="section__title about__title">
