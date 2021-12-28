@@ -20,14 +20,14 @@
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">
-                    <i class="ri-leaf-line nav__logo-icon"></i> Notary Booking System
+                    <i class="ri-leaf-line nav__logo-icon"></i> Notaris Tety Andriani
                 </a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
                             {{-- <a href="#home" class="nav__link active-link">Home</a> --}}
-                            <a href="/dashboard/notaris" class="nav__link active-link">Home</a>
+                            <a href="/dashboard/klien" class="nav__link active-link">Home</a>
                         </li>
                         <li class="nav__item">
                             <a href="#about" class="nav__link">About</a>
@@ -66,9 +66,10 @@
                     <img src="assets/img/notary.png" alt="" class="home__img">
 
                     <div class="home__data">
-                        <h1 class="home__title">
-                            Notary and<br>  Booking System
-                        </h1>
+                        <h2 class="home__title">
+                           Layanan Konsultasi Notaris</h2><br> <hr> 
+                           <h2> By Tety Andriani S.H</h2>
+                        
                         <p class="home__description">
                             .
                         </p>

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\NotarisController;
+use App\Http\Controllers\KlienController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-// --CRUD Notaris
-Route::resource('/dashboard/notaris', NotarisController::class);
+// --CRUD Klien
+Route::resource('/dashboard/klien', KlienController::class);
