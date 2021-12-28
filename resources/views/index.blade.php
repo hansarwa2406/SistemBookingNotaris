@@ -188,12 +188,12 @@
 
                         <img src="assets/img/product1.png" alt="" class="product__img">
 
-                        <h3 class="product__title">Jadwal Konsultasi</h3>
-                        <span class="product__price">$19.99</span>
+                        <h3 class="product__title">Klien CRUD</h3>
+                        <span class="product__price"></span>
 
-                        <!-- <button class="button--flex product__button">
-                            <i class="ri-shopping-bag-line"></i>
-                        </button> -->
+                         <button class="button--flex product__button"><a href="/dashboard/klien">
+                            <i class="ri-shopping-bag-line"></i></a>
+                        </button> 
                     </article>
 
                     <article class="product__card">
@@ -201,12 +201,12 @@
 
                         <img src="assets/img/product2.png" alt="" class="product__img">
 
-                        <h3 class="product__title">Blog Notaris</h3>
-                        <span class="product__price">$11.99</span>
+                        <h3 class="product__title">Notaris CRUD</h3>
+                        <span class="product__price"></span>
 
-                        <!-- <button class="button--flex product__button">
-                            <i class="ri-shopping-bag-line"></i>
-                        </button> -->
+                        <button class="button--flex product__button"><a href="/dashboard/notaris">
+                            <i class="ri-shopping-bag-line"></i></a>
+                        </button> 
                     </article>
 
                     <article class="product__card">
