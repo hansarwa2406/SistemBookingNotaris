@@ -218,7 +218,7 @@
                         <span class="product__price"></span>
 
                          <button class="button--flex product__button"><a href="/dashboard/booking">
-                            <i class="ri-shopping-bag-line"></i>
+                            <i class="ri-shopping-bag-line"></i></a>
                         </button> 
                     </article>
 
@@ -266,7 +266,7 @@
             <!--==================== QUESTIONS ====================-->
             <section class="questions section" id="faqs">
                 <h2 class="section__title-center questions__title container">
-                    Some common questions <br> were often asked
+                    Beberapa Pertanyaan <br> Terkait Kenotariatan
                 </h2>
 
                 <div class="questions__container container grid">
@@ -275,14 +275,13 @@
                             <header class="questions__header">
                                 <i class="ri-add-line questions__icon"></i>
                                 <h3 class="questions__item-title">
-                                    My flowers are falling off or dying?
+                                    Ada hukum apa saja untuk mengurus pembagian ahli waris ?
                                 </h3>
                             </header>
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Plants are easy way to add color energy and transform your 
-                                    space but which planet is for you. Choosing the right plant.
+                                    Ada 2 hukum yaitu pembagian secara islam dan secara hukum perdata negara.
                                 </p>
                             </div>
                         </div>
@@ -291,14 +290,13 @@
                             <header class="questions__header">
                                 <i class="ri-add-line questions__icon"></i>
                                 <h3 class="questions__item-title">
-                                    What causes leaves to become pale?
+                                    Berapa modal untuk membuat akta jual beli ?
                                 </h3>
                             </header>
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Plants are easy way to add color energy and transform your 
-                                    space but which planet is for you. Choosing the right plant.
+                                    Modal untuk membuat akta jual beli sebetulnya tergantung lagi pada harga tanah yang ingin dibeli sehinggi cukup fleksibel untuk harga bagi setiap notaris.
                                 </p>
                             </div>
                         </div>
@@ -307,14 +305,13 @@
                             <header class="questions__header">
                                 <i class="ri-add-line questions__icon"></i>
                                 <h3 class="questions__item-title">
-                                    What causes brown crispy leaves?
+                                    Dimana sertifikat diurus oleh notaris ?
                                 </h3>
                             </header>
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Plants are easy way to add color energy and transform your 
-                                    space but which planet is for you. Choosing the right plant.
+                                    Sertifikat diproses dengan pengajuan ke BPN ( Badan Pertanahan Nasional).
                                 </p>
                             </div>
                         </div>
@@ -325,14 +322,13 @@
                             <header class="questions__header">
                                 <i class="ri-add-line questions__icon"></i>
                                 <h3 class="questions__item-title">
-                                    How do i choose a plant?
+                                    Tanda Tangan AJB apakah harus dilakukan oleh pemegang hak ?
                                 </h3>
                             </header>
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Plants are easy way to add color energy and transform your 
-                                    space but which planet is for you. Choosing the right plant.
+                                    Tanda Tangan AJB bisa dilakukan oleh pemegang hak atau dilakukan melalui kuasa dengan catatan kuasa tersebut harus otentik dan dipastikan kuasa tersebut benar diberikan oleh orang yang berwenang.
                                 </p>
                             </div>
                         </div>
@@ -341,14 +337,13 @@
                             <header class="questions__header">
                                 <i class="ri-add-line questions__icon"></i>
                                 <h3 class="questions__item-title">
-                                    How do I change the pots?
+                                    Apakah masih boleh memesan nama dengan awalan himpunan. jaringan, atau ikatan ?
                                 </h3>
                             </header>
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Plants are easy way to add color energy and transform your 
-                                    space but which planet is for you. Choosing the right plant.
+                                    Secara sistem maka hal tersebut akan ditolak yang dimana bisa kita lihat syarat nama perkumpulan pada Pasal 4 ayat 1 huruf g Permenkumham Nomor 10 Tahun 2019.
                                 </p>
                             </div>
                         </div>
@@ -357,14 +352,13 @@
                             <header class="questions__header">
                                 <i class="ri-add-line questions__icon"></i>
                                 <h3 class="questions__item-title">
-                                    Why are gnats flying around my plant?
+                                   Berkas apa saja yang perlu saya siapkan?
                                 </h3>
                             </header>
 
                             <div class="questions__content">
                                 <p class="questions__description">
-                                    Plants are easy way to add color energy and transform your 
-                                    space but which planet is for you. Choosing the right plant.
+                                    Untuk berkas dokumen biasanya akan diberitahu setelah melakukan konsultasi dengan notaris jadi anda hanya perlu datang berkonsultasi seperti biasa untuk konsultasi pertama.
                                 </p>
                             </div>
                         </div>
@@ -377,23 +371,23 @@
                 <div class="contact__container grid">
                     <div class="contact__box">
                         <h2 class="section__title">
-                            Reach out to us today <br> via any of the given <br> information
+                            Segera hubungi kami  <br> untuk informasi <br> lebih lanjut
                         </h2>
 
                         <div class="contact__data">
                             <div class="contact__information">
-                                <h3 class="contact__subtitle">Call us for instant support</h3>
+                                <h3 class="contact__subtitle">Layanan Telepon</h3>
                                 <span class="contact__description">
                                     <i class="ri-phone-line contact__icon"></i>
-                                    +999 888 777
+                                    No. Telp : +62 819-0597-2540
                                 </span>
                             </div>
 
                             <div class="contact__information">
-                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <h3 class="contact__subtitle">Layanan E-mail</h3>
                                 <span class="contact__description">
                                     <i class="ri-mail-line contact__icon"></i>
-                                    user@email.com
+                                    andriandanul@gmail.com
                                 </span>
                             </div>
                         </div>
@@ -418,7 +412,7 @@
                         </div>
 
                         <button class="button button--flex">
-                            Send Message
+                            Kirim Pesan
                             <i class="ri-arrow-right-up-line button__icon"></i>
                         </button>
                     </form>
@@ -449,20 +443,20 @@
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Our Address</h3>
+                    <h3 class="footer__title">Alamat Kami</h3>
 
                     <ul class="footer__data">
-                        <li class="footer__information">1234 - Peru</li>
-                        <li class="footer__information">La Libertad - 43210</li>
-                        <li class="footer__information">123-456-789</li>
+                        <li class="footer__information">Jalan Durentiga Selatan</li>
+                        <li class="footer__information">No. 15 - Jakarta Selatan</li>
+                        <li class="footer__information">+62 819-0597-2540</li>
                     </ul>
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Contact Us</h3>
+                    <h3 class="footer__title">Kontak Kami</h3>
 
                     <ul class="footer__data">
-                        <li class="footer__information">+999 888 777</li>
+                        <li class="footer__information">+62 819-0597-2540</li>
                         
                         <div class="footer__social">
                             <a href="https://www.facebook.com/" class="footer__social-link">
