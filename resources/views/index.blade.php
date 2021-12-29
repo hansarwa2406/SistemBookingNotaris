@@ -214,12 +214,12 @@
 
                         <img src="assets/img/product3.png" alt="" class="product__img">
 
-                        <h3 class="product__title">Ruang Diskusi </h3>
-                        <span class="product__price">$7.99</span>
+                        <h3 class="product__title">Booking CRUD </h3>
+                        <span class="product__price"></span>
 
-                        <!-- <button class="button--flex product__button">
+                         <button class="button--flex product__button"><a href="/dashboard/booking">
                             <i class="ri-shopping-bag-line"></i>
-                        </button> -->
+                        </button> 
                     </article>
 
                     <!-- <article class="product__card">

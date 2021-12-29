@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateNotarisTable extends Migration
+class CreateBookingsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,13 @@ class CreateNotarisTable extends Migration
      */
     public function up()
     {
-        Schema::create('notaris', function (Blueprint $table) {
+        Schema::create('bookings', function (Blueprint $table) {
             $table->id();
+            $table->string('id_jadwal')->unique();
             $table->string('id_notaris')->unique();
-            $table->string('nama_notaris');
-            $table->string('alamat');
-            $table->string('jabatan');
-            $table->integer('no_tlp');
+            $table->string('id_klien')->unique();
+            $table->dateTime('start_date');
+            $table->dateTime('end_date');
             $table->timestamps();
         });
     }
@@ -31,6 +31,6 @@ class CreateNotarisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('notaris');
+        Schema::dropIfExists('bookings');
     }
 }

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\KlienController;
+use App\Http\Controllers\BookingController;
 use App\Http\Controllers\NotarisController;
 
 /*
@@ -23,3 +24,5 @@ Route::get('/', function () {
 Route::resource('/dashboard/klien', KlienController::class);
 // --CRUD Notaris
 Route::resource('/dashboard/notaris', NotarisController::class);
+// --CRUD Booking
+Route::resource('/dashboard/booking', BookingController::class);

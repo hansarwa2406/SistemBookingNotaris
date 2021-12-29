@@ -5,18 +5,22 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Notaris extends Model
+class Booking extends Model
 {
     use HasFactory;
     protected $guarded = ['id'];
 
     public function getRouteKeyName()
     {
-        return 'id_notaris';
+        return 'id_jadwal';
     }
 
-    public function booking()
+    public function klien()
     {
-        return $this->hasMany(Booking::class);
+        return $this->belongsTo(Klien::class);
+    }
+    public function notaris()
+    {
+        return $this->hasMany(Notaris::class);
     }
 }
