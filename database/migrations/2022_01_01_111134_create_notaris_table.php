@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Notaris extends Migration
+class CreateNotarisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,11 +15,11 @@ class Notaris extends Migration
     {
         Schema::create('notaris', function (Blueprint $table) {
             $table->id();
-             $table->string('id_notaris')->unique();
-            $table->string('nama_notaris');
-            $table->string('alamat');
-            $table->string('jabatan');
-            $table->string('no_tlp');
+            $table->string('NIN');
+            $table->text('NamaNotaris');
+            $table->text('Alamat');
+            $table->string('Tlp');
+            $table->string('Jabatan');
             $table->timestamps();
         });
     }

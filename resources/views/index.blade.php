@@ -204,7 +204,7 @@
                         <h3 class="product__title">Notaris CRUD</h3>
                         <span class="product__price"></span>
 
-                        <button class="button--flex product__button"><a href="/dashboard/notaris">
+                        <button class="button--flex product__button"><a href="/dashboard/nota">
                             <i class="ri-shopping-bag-line"></i></a>
                         </button> 
                     </article>

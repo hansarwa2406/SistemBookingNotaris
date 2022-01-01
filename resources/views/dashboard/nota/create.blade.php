@@ -5,48 +5,48 @@
     <h1 class="h2">Tambah Data Notaris</h1>
   </div>
   <div class="col-lg-8">
-       <form method="POST" action="/dashboard/notaris">
+       <form method="POST" action="/dashboard/nota">
         @csrf
         <div class="mb-3">
-          <label for="id_notaris" class="form-label">ID Notaris</label>
-          <input type="text" class="form-control @error('id_notaris') is-invalid @enderror" id="id_notaris" name="id_notaris" value="{{ old('id_notaris') }}" required autofocus>
-          @error('id_notaris')
+          <label for="NIN" class="form-label">ID Notaris</label>
+          <input type="text" class="form-control @error('NIN') is-invalid @enderror" id="NIN" name="NIN" value="{{ old('NIN') }}" required autofocus>
+          @error('NIN')
               <div class="invalid-feedback">
                   {{ $message }}
               </div>
           @enderror
       </div>
         <div class="mb-3">
-          <label for="nama_notaris" class="form-label">Nama Notaris</label>
-          <input type="text" class="form-control @error('nama_notaris') is-invalid @enderror" id="nama_notaris" name="nama_notaris" value="{{ old('nama_notaris') }}" required autofocus>
-          @error('nama_notaris')
+          <label for="NamaNotaris" class="form-label">Nama Notaris</label>
+          <input type="text" class="form-control @error('NamaNotaris') is-invalid @enderror" id="NamaNotaris" name="NamaNotaris" value="{{ old('NamaNotaris') }}" required autofocus>
+          @error('NamaNotaris')
               <div class="invalid-feedback">
                   {{ $message }}
               </div>
           @enderror
       </div>
         <div class="mb-3">
-          <label for="alamat_notaris" class="form-label">Alamat</label>
-          <input type="text" class="form-control @error('alamat_notaris') is-invalid @enderror" id="alamat_notaris" name="alamat_notaris" value="{{ old('alamat_notaris') }}" required autofocus>
-          @error('alamat_notaris')
+          <label for="Alamat" class="form-label">Alamat</label>
+          <input type="text" class="form-control @error('Alamat') is-invalid @enderror" id="Alamat" name="Alamat" value="{{ old('Alamat') }}" required autofocus>
+          @error('Alamat')
               <div class="invalid-feedback">
                   {{ $message }}
               </div>
           @enderror
       </div>
         <div class="mb-3">
-          <label for="no_tlp" class="form-label">Nomor Telepon</label>
-          <input type="text" class="form-control @error('no_tlp') is-invalid @enderror" id="no_tlp" name="no_tlp" value="{{ old('no_tlp') }}" required autofocus>
-          @error('no_tlp')
+          <label for="Tlp" class="form-label">Nomor Telepon</label>
+          <input type="text" class="form-control @error('Tlp') is-invalid @enderror" id="Tlp" name="Tlp" value="{{ old('Tlp') }}" required autofocus>
+          @error('Tlp')
               <div class="invalid-feedback">
                   {{ $message }}
               </div>
           @enderror
       </div> 
       <div class="mb-3">
-          <label for="jabatan" class="form-label">jabatan</label>
-          <input type="text" class="form-control @error('jabatan') is-invalid @enderror" id="jabatan" name="jabatan" value="{{ old('jabatan') }}" required autofocus>
-          @error('jabatan')
+          <label for="Jabatan" class="form-label">Jabatan</label>
+          <input type="text" class="form-control @error('Jabatan') is-invalid @enderror" id="Jabatan" name="Jabatan" value="{{ old('Jabatan') }}" required autofocus>
+          @error('Jabatan')
               <div class="invalid-feedback">
                   {{ $message }}
               </div>

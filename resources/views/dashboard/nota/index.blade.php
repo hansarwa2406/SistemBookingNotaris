@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Data Klien</h1>
+        <h1 class="h2">Data Notaris</h1>
     </div>
 
     @if (session('Berhasil'))
@@ -14,7 +14,7 @@
     @endif
 
     <div class="table-responsive col-lg-8">
-        <a href="/dashboard/notaris/create" class="btn btn-primary mb-3"><span data-feather="plus-circle"></span> Tambah Data Notaris</a>
+        <a href="/dashboard/nota/create" class="btn btn-primary mb-3"><span data-feather="plus-circle"></span> Tambah Data Notaris</a>
         <table class="table table-striped table-sm">
             <thead>
                 <tr class=" text-center">
@@ -28,22 +28,22 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($notaris as $notary)
+                @foreach ($nota as $notaris)
                     <tr>
                         <td class=" text-center">{{ $loop->iteration }}</td>
-                        <td>{{ $notary->id_klien }}</td>
-                        <td>{{ $notary->nama_klien }}</td>
-                        <td>{{ $notary->alamat }}</td>
-                        <td>{{ $notary->no_tlp }}</td>
-                        <td>{{ $notary->jabatan }}</td>
+                        <td>{{ $notaris->NIN }}</td>
+                        <td>{{ $notaris->NamaNotaris }}</td>
+                        <td>{{ $notaris->Alamat }}</td>
+                        <td>{{ $notaris->Tlp }}</td>
+                        <td>{{ $notaris->Jabatan}}</td>
                      
                         <td class=" text-center">
-                            <a href="/dashboard/notaris/{{ $notary->id_notaris }}" class="badge bg-info text-decoration-none" title="View"><span data-feather="eye"></a>
-                            <a href="/dashboard/notaris/{{ $notary->id_notaris }}/edit" class="badge bg-warning text-decoration-none" title="Edit"><span data-feather="edit"></a>
-                            <form action="/dashboard/notaris/{{ $notary->id_notaris }}" method="POST" class=" d-inline">
-                                @method('delete')
-                                @csrf
-                                <button class="badge bg-danger border-0" title="Delete" onclick="return confirm('Are you sure you want to delete this notary: {{ $notary->id_notaris }}? ')"><span data-feather="trash-2"></button>
+                            <a href="/dashboard/nota/{{ $notaris->id }}" class="badge bg-info text-decoration-none" title="View"><span data-feather="eye"></a>
+                                <a href="/dashboard/nota/{{ $notaris->id }}/edit" class="badge bg-warning text-decoration-none" title="Edit"><span data-feather="edit"></a>
+                                    <form action="/dashboard/nota/{{ $notaris->id }}" method="POST" class=" d-inline">
+                                        @method('delete')
+                                        @csrf
+                                        <button class="badge bg-danger border-0" title="Delete" onclick="return confirm('Are you sure you want to delete this notaris: {{ $notaris->id }}? ')"><span data-feather="trash-2"></button>
                             </form>
                         </td>
                     </tr>

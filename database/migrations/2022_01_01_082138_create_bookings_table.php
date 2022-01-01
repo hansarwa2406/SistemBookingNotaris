@@ -16,7 +16,7 @@ class CreateBookingsTable extends Migration
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
             $table->string('id_jadwal')->unique();
-            $table->string('id_notaris')->unique();
+            $table->string('id_notar')->unique();
             $table->string('id_klien')->unique();
             $table->dateTime('start_date');
             $table->dateTime('end_date');

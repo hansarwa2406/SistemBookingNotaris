@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Notaris extends Model
 {
     use HasFactory;
+    protected $table = 'notaris';
+    protected $primaryKey = 'id';
+
+    protected $fillable = [
+        'NIN','NamaNotaris','Alamat','Tlp','Jabatan'
+    ];
 }
