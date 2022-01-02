@@ -3,8 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\KlienController;
 
+use App\Http\Controllers\SiswaControllers;
 use App\Http\Controllers\BookingController;
-use App\Http\Controllers\NotarisControllers;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +25,7 @@ Route::get('/', function () {
 // --CRUD Klien
 Route::resource('/dashboard/klien', KlienController::class);
 // --CRUD Notaris
-Route::resource('/dashboard/nota', NotarisControllers::class);
+Route::resource('/dashboard/sisw', SiswaControllers::class);
 // --CRUD Booking
 Route::resource('/dashboard/booking', BookingController::class);
 

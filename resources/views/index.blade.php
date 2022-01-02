@@ -19,7 +19,7 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">
+                <a href="index.php" class="nav__logo">
                     <i class="ri-leaf-line nav__logo-icon"></i> Notaris Tety Andriani
                 </a>
 
@@ -204,7 +204,7 @@
                         <h3 class="product__title">Notaris CRUD</h3>
                         <span class="product__price"></span>
 
-                        <button class="button--flex product__button"><a href="/dashboard/nota">
+                        <button class="button--flex product__button"><a href="/dashboard/sisw">
                             <i class="ri-shopping-bag-line"></i></a>
                         </button> 
                     </article>
@@ -222,6 +222,7 @@
                         </button> 
                     </article>
 
+                   
                     <!-- <article class="product__card">
                         <div class="product__circle"></div>
 

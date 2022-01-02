@@ -43,6 +43,8 @@ class SiswaControllers extends Controller
             'NIS' => 'required',
             'NamaSiswa' => 'required',
             'Alamat' => 'required',
+            'Tlp' => 'required',
+            'Jabatan' => 'required',
         ]);
         Siswa::create($request->all());
 
@@ -84,6 +86,8 @@ class SiswaControllers extends Controller
             'NIS' => 'required',
             'NamaSiswa' => 'required',
             'Alamat' => 'required',
+            'Tlp' => 'required',
+            'Jabatan' => 'required',
         ]);
 
         $sisw->update($request->all());
