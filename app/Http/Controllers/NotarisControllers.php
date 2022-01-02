@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Notaris;
 
-use App\Models\Siswa;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
-class SiswaControllers extends Controller
+class NotarisControllers extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +15,8 @@ class SiswaControllers extends Controller
      */
     public function index()
     {
-        $sisw = Siswa::latest()->paginate(5);
-        return view ('/dashboard/sisw/index',compact('sisw'))->with('i', (request()->input('page', 1) -1) * 5);
+        $nota = Notaris::latest()->paginate(5);
+        return view ('/dashboard/nota/index',compact('nota'))->with('i', (request()->input('page', 1) -1) * 5);
     }
 
     /**
@@ -26,8 +26,7 @@ class SiswaControllers extends Controller
      */
     public function create()
     {
-        //
-        return view('dashboard.sisw.create');
+        return view('dashboard.nota.create');
     }
 
     /**
@@ -38,17 +37,17 @@ class SiswaControllers extends Controller
      */
     public function store(Request $request)
     {
-        //
         $request->validate([
-            'NIS' => 'required',
-            'NamaSiswa' => 'required',
+            'NIN' => 'required',
+            'NamaNotaris' => 'required',
             'Alamat' => 'required',
             'Tlp' => 'required',
             'Jabatan' => 'required',
         ]);
-        Siswa::create($request->all());
+        Notaris::create($request->all());
 
-        return redirect('/dashboard/sisw')->with('Berhasil', 'New post has been added!');
+        return redirect('/dashboard/nota')->with('Berhasil', 'New post has been added!');
+    
     }
 
     /**
@@ -57,9 +56,9 @@ class SiswaControllers extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Siswa $sisw)
+    public function show(Notaris $nota)
     {
-        return view('dashboard.sisw.show',compact('sisw'));
+        return view('dashboard.nota.show',compact('nota'));
     }
 
     /**
@@ -68,9 +67,9 @@ class SiswaControllers extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Siswa $sisw)
+    public function edit(Notaris $nota)
     {
-        return view('dashboard.sisw.edit', compact('sisw'));
+        return view('dashboard.nota.edit', compact('nota'));
     }
 
     /**
@@ -80,19 +79,18 @@ class SiswaControllers extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Siswa $sisw)
+    public function update(Request $request, Notaris $nota)
     {
         $request->validate([
-            'NIS' => 'required',
-            'NamaSiswa' => 'required',
+            'NIN' => 'required',
+            'NamaNotaris' => 'required',
             'Alamat' => 'required',
-             'Tlp' => 'required',
+            'Tlp' => 'required',
             'Jabatan' => 'required',
         ]);
+        $nota->update($request->all());
 
-        $sisw->update($request->all());
-
-        return redirect('/dashboard/sisw')->with('Berhasil', 'Post has been updated!');
+        return redirect('/dashboard/nota')->with('Berhasil', 'Data berhasil di Update!');
     }
 
     /**
@@ -101,10 +99,9 @@ class SiswaControllers extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Siswa $sisw)
+    public function destroy(Notaris $nota)
     {
-        $sisw->delete();
-
-        return redirect('/dashboard/sisw')->with('Berhasil', 'Data Berhasil Dihapus');
+        $nota->delete();
+        return redirect('/dashboard/nota')->with('Berhasil', 'Data berhasil di Hapus!');
     }
 }

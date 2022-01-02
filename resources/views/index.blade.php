@@ -13,14 +13,14 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="/assets/css/styles.css">
 
-        <title>Sistem Booking Notaris - Mamahnya Tito</title>
+        <title>Notariku by Tety Andriani</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="index.php" class="nav__logo">
-                    <i class="ri-leaf-line nav__logo-icon"></i> Notaris Tety Andriani
+                    <i class="ri-leaf-line nav__logo-icon"></i> Notariku
                 </a>
 
                 <div class="nav__menu" id="nav-menu">
@@ -30,16 +30,16 @@
                             <a href="/dashboard/klien" class="nav__link active-link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
+                            <a href="#about" class="nav__link">Tentang Kami</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#products" class="nav__link">Services</a>
+                            <a href="#products" class="nav__link">Layanan Kami</a>
                         </li>
                         <li class="nav__item">
                             <a href="#faqs" class="nav__link">FAQs</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contact Us</a>
+                            <a href="#contact" class="nav__link">Kontak Kami</a>
                         </li>
                     </ul>
 
@@ -67,7 +67,9 @@
 
                     <div class="home__data">
                         <h2 class="home__title">
-                           Layanan Konsultasi Notaris</h2><br> <hr> 
+                           Notariku</h2>
+                           <h3> Sistem Penjadwalan Konsultasi dengan Notaris </h3> <br> <hr>
+                          
                            <h2> By Tety Andriani S.H</h2>
                         
                         <p class="home__description">
@@ -103,35 +105,34 @@
 
                     <div class="about__data">
                         <h2 class="section__title about__title">
-                            Who we really are & <br> why choose us
+                            Mengenai Notariku by <br> Notaris Tety Andriani
                         </h2>
 
                         <p class="about__description">
-                            We have over 4000+ unbiased reviews and our customers 
-                            trust our plant process and delivery service every time
+                           Kami merupakan Profesional Notaris dan Komisioning Dokumen Online Maupun Offline yang efisien, aman, dan cepat serta dipercaya dalam menanggani kebutuhan terkait kenotariatan anda.
                         </p>
 
                         <div class="about__details">
                             <p class="about__details-description">
                                 <i class="ri-checkbox-fill about__details-icon"></i>
-                                We always deliver on time.
+                                Kami melayani masyarakat dalam hal pembuatan akta autentik.
                             </p>
                             <p class="about__details-description">
                                 <i class="ri-checkbox-fill about__details-icon"></i>
-                                We give you guides to protect and care for your plants.
+                                Kami menjamin kerahasiaan data anda secara hukum yuridis.
                             </p>
                             <p class="about__details-description">
                                 <i class="ri-checkbox-fill about__details-icon"></i>
-                                We always come over for a check-up after sale.
+                                Kami melayani layanan konsultasi secara online dan offline.
                             </p>
                             <p class="about__details-description">
                                 <i class="ri-checkbox-fill about__details-icon"></i>
-                                100% money back guaranteed.
+                                Kami memberikan kenyaman, kecepatan, dan kemudahan dalam penjadwalan dan pembuatan dokumen.
                             </p>
                         </div>
 
                         <a href="#" class="button--link button--flex">
-                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                            Menjadwalkan Pertemuan <i class="ri-arrow-right-down-line button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -184,9 +185,9 @@
 
                 <div class="product__container grid">
                     <article class="product__card">
-                        <div class="product__circle"></div>
+                        {{-- <div class="product__circle"></div> --}}
 
-                        <img src="assets/img/product1.png" alt="" class="product__img">
+                        <img src="assets/img/klien.png" alt="" class="product__img">
 
                         <h3 class="product__title">Klien CRUD</h3>
                         <span class="product__price"></span>
@@ -197,9 +198,9 @@
                     </article>
 
                     <article class="product__card">
-                        <div class="product__circle"></div>
+                        {{-- <div class="product__circle"></div> --}}
 
-                        <img src="assets/img/product2.png" alt="" class="product__img">
+                        <img src="assets/img/notaris.png" alt="" class="product__img">
 
                         <h3 class="product__title">Notaris CRUD</h3>
                         <span class="product__price"></span>
@@ -210,9 +211,9 @@
                     </article>
 
                     <article class="product__card">
-                        <div class="product__circle"></div>
+                        {{-- <div class="product__circle"></div> --}}
 
-                        <img src="assets/img/product3.png" alt="" class="product__img">
+                        <img src="assets/img/booking.png" alt="" class="product__img" >
 
                         <h3 class="product__title">Booking CRUD </h3>
                         <span class="product__price"></span>
@@ -426,7 +427,7 @@
             <div class="footer__container container grid">
                 <div class="footer__content">
                     <a href="#" class="footer__logo">
-                        <i class="ri-leaf-line footer__logo-icon"></i> NotaryBookingSystem
+                        <i class="ri-leaf-line footer__logo-icon"></i> Notariku
                     </a>
 
                     <h3 class="footer__title">
@@ -487,7 +488,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; NotaryBookingSystem. All rigths reserved</p>
+            <p class="footer__copy">&#169; Notariku. All rigths reserved</p>
         </footer>
         
         <!--=============== SCROLL UP ===============-->
